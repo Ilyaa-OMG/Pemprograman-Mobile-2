@@ -1,5 +1,5 @@
 void main() {
-  Symbol symbol1 = Symbol("Archovv");
+  Symbol symbol1 = const Symbol("Archovv");
   var symbol2 = #belajar_dart;
 
   print(symbol1);

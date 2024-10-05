@@ -1,5 +1,5 @@
 void main() {
-  int? age = null;
+  int? age;
   age = 1;
 
   double ageDouble = age.toDouble();
@@ -8,7 +8,7 @@ void main() {
   //String name = 'Archovv';
   //String? nullableName = name;
 
-  int? nullablePrice = null;
+  int? nullablePrice;
   if (nullablePrice != null) {
     //int price = nullablePrice;
   }

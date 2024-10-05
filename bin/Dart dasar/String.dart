@@ -5,13 +5,13 @@ void main() {
   print(firstName);
   print(lastName);
 
-  var fullName = '$firstName ${lastName}';
+  var fullName = '$firstName $lastName';
   print(fullName);
 
   var text = 'this is \'dart\' \$cool';
   print(text);
 
-  var name1 = firstName + " " + lastName;
+  var name1 = "$firstName $lastName";
   var name2 = 'Archovv' ' Yozakura';
 
   print(name1);
