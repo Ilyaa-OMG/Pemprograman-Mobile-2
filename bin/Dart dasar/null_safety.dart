@@ -9,9 +9,6 @@ void main() {
   //String? nullableName = name;
 
   int? nullablePrice;
-  if (nullablePrice != null) {
-    //int price = nullablePrice;
-  }
 
   String? guest;
   //  guest = 'Eko';
