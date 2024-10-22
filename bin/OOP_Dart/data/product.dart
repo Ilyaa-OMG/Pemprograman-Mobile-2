@@ -1,24 +1,21 @@
-
 class Product {
-
   String? id;
   String? name;
   int? _quantity;
 
-  int? _getQuantity(){
+  int? _getQuantity() {
     return _quantity;
   }
 
-  String toString(){
+  String toString() {
     return "Product{id=$id, name=$name, quantity=$_quantity}";
   }
-
 }
 
-void main(){
+void main() {
   var product = Product();
   product.id = '1';
-  product.name = 'Laptop';
+  product.name = 'Kopi';
   product._quantity = 100;
   product._getQuantity();
 }

@@ -1,27 +1,26 @@
-
 class User {
   String? username;
   String? name;
   String? email;
 }
 
-User? createUser(){
+User? createUser() {
   return null;
 }
 
-void main(){
+void main() {
   // var user = User();
-  // user.username = "eko";
-  // user.name = "Eko";
-  // user.email = "eko@contoh.com";
+  // user.username = "Archovvv";
+  // user.name = "Ilyaa";
+  // user.email = "msyafii150@gmail.com";
 
   var user = User()
-      ..username = "eko"
-      ..name = "Eko"
-      ..email = "eko@contoh.com";
+    ..username = "Archovvv"
+    ..name = "Ilyaa"
+    ..email = "msyafii150@gmail.com";
 
   User? user2 = createUser()
-    ?..username = "eko"
-    ..name = "Eko"
-    ..email = "eko@contoh.com";
+    ?..username = "Archovv"
+    ..name = "Ilyaa"
+    ..email = "msyafii150@gmail.com";
 }

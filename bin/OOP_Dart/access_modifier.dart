@@ -1,10 +1,9 @@
-
 import 'data/product.dart';
 
-void main(){
+void main() {
   var product = Product();
   product.id = '1';
-  product.name = 'Laptop';
+  product.name = 'Kopi';
   // product._getQuantity();
   // product._quantity = 100;
 }
